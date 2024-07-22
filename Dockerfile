@@ -1,5 +1,5 @@
 FROM node:lts-buster
-RUN git clone https://github.com/darlsoul/DevilSer-MD /root/Devil-MD
+RUN git clone https://github.com/Kiranxer/DevilSer-MD /root/Devil-MD
 WORKDIR /root/Devil-MD
 RUN apt-get update && \
   apt-get install -y \
