@@ -108,7 +108,7 @@ await makeId(sessionId, folderPath, mongoDb)
         client.end(`Unknown DisconnectReason: ${reason}|${lastDisconnect.error}`);
       }
     } else if (connection === 'open') {
-   console.log("DevilSer-MD By Amruth");
+   console.log("Neeli-Penni-Md by Kiran-Xer");
     client.sendMessage(config.SUDO+"@s.whatsapp.net", { 
         text: `Devil-𝙼𝙳 𝚂𝚝𝚊𝚛𝚝𝚎𝚍\n\n𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${version}\n𝙿𝚕𝚞𝚐𝚒𝚗𝚜 : not found\n𝙼𝚘𝚍𝚎 : not found\n𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.HANDLERS}\n𝚂𝚞𝚍𝚘 : ${config.SUDO}`
     });
@@ -121,7 +121,7 @@ await makeId(sessionId, folderPath, mongoDb)
   });
 }
 app.get("/", (req, res) => {
-	res.send("Hello DevilSer-MD Started");
+	res.send("Hello Neeli-Penni-MD Started");
 });
-app.listen(port, () => console.log(`Devil-MD Server Listening On Port ${port}`));
+app.listen(port, () => console.log(`Neeli-Penni-MD Server Listening On Port ${port}`));
 start();
