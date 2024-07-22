@@ -7,6 +7,6 @@ pnix({
     fromMe: mode
 }, async(msg) => {
         const time = await runtime()
-        await msg.reply(`_*Runtime ${time}*_`);
+        await msg.reply(`_*𝐑ᴜɴᴛɪᴍᴇ = ${time} 🏃🏻‍♀️*_`);
     }
 )
