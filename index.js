@@ -109,13 +109,14 @@ await makeId(sessionId, folderPath, mongoDb)
       }
     } else if (connection === 'open') {
    console.log("Neeli-Penni-Md by Kiran-Xer");
-    client.sendMessage(config.SUDO+"@s.whatsapp.net", { 
-        text: `*►  𝐍 𝐄 𝐄 𝐋 𝐈 ;; 🍃* \n
-*ㅤㅤ⌌ — — — ☁* \n
-*ㅤㅤ│ᴜᴩᴛɪᴍᴇ = 1 day 5 hours 33 minutes* \n
-*ㅤㅤ│ɪɴ𝗌ᴛᴀ = whois.kiran.xer* \n
-*ㅤㅤ│ʙɪᴏ = ┊➵︰𝐍ᴇᴇʟɪ 𝐏ᴇɴɴɪ︰🦋┊* \n
-*⌎ — — — —*Devil-𝙼𝙳 𝚂𝚝𝚊𝚛𝚝𝚎𝚍\n\n𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${version}\n𝙿𝚕𝚞𝚐𝚒𝚗𝚜 : not found\n𝙼𝚘𝚍𝚎 : not found\n𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.HANDLERS}\n𝚂𝚞𝚍𝚘 : ${config.SUDO}`
+    client.sendMessage("919539060020@s.whatsapp.net", { 
+        text: `*►  𝐍 𝐄 𝐄 𝐋 𝐈 ;; 🍃*
+*ㅤㅤ⌌ — — — ☁*
+*ㅤㅤ│ᴠᴇʀꜱɪᴏɴ = ${version}*
+*ㅤㅤ│ᴩʀᴇꜰɪ᥊ = ${config.HANDLERS}*
+*ㅤㅤ│ꜱᴜᴅᴏ = ${config.SUDO}*
+*ㅤㅤ│ᴍᴏᴅᴇ = ${config.MODE}*
+*⌎ — — — —*`
     });
 }});
 
